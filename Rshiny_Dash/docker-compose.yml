@@ -1,0 +1,31 @@
+version: "3"
+
+services:
+  dash:
+    build: 
+      context: ./dash
+    image: dash
+    container_name: dash
+    restart: always
+    expose:
+      - 8050
+
+  rshiny:
+    build: 
+      context: ./rshiny
+    image: rshiny
+    container_name: rshiny
+    restart: always
+    expose:
+      - 3838
+
+  mynginx:
+    build: ./mynginx
+    image: mynginx
+    container_name: mynginx
+    restart: always
+    ports:
+      - "9090:80"
+    links:
+      - dash
+      - rshiny

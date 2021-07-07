@@ -1,2 +1,1 @@
-# rshiny-simple-example
-This repo includes some rshiny problems I solved 
+This repo includes some of the R Shiny related problems that I have solved. 
