@@ -1,5 +1,5 @@
 # Introduction
-This repo is about how to combine [R Shiny](https://shiny.rstudio.com/) and [Dash](https://dash.plotly.com/) into a same app. By using some tricks, R Shiny users and Dash users can develop on the same app without any problems. This is exactly how I work with my current colleagues in one of our company internal products! :blush:
+This repo is about how to combine [R Shiny](https://shiny.rstudio.com/) and [Dash](https://dash.plotly.com/) to make people think they are looking at one app rather than two apps from two separate frameworks. This is might not be the best practice, but definitely a workable way to make R Shiny developer and Dash developer work together without having both sides compromise too much. This is exactly how our team do in one of our internal project and so far everything runs smoothly. :blush:
 
 # Local Test
 * Build
